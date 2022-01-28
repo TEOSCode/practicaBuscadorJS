@@ -24,6 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
   mostrarAutos(autos);
   //Llena las opciones de años
   llenarSelect();
+  llenarSelectMarca();
 });
 //Event listener para los select de busqueda
 marca.addEventListener('change', e => {
